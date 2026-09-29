@@ -239,6 +239,9 @@
   .mt-19 {
     margin-top: calc(var(--spacing) * 19);
   }
+  .mt-20 {
+    margin-top: calc(var(--spacing) * 20);
+  }
   .mt-25 {
     margin-top: calc(var(--spacing) * 25);
   }
@@ -302,8 +305,17 @@
   .mt-\[px\] {
     margin-top: px;
   }
+  .mr-\[2px\] {
+    margin-right: 2px;
+  }
   .mr-\[10px\] {
     margin-right: 10px;
+  }
+  .mr-\[100px\] {
+    margin-right: 100px;
+  }
+  .mr-\[200px\] {
+    margin-right: 200px;
   }
   .mr-\[230px\] {
     margin-right: 230px;
@@ -593,11 +605,17 @@
   .max-w-\[464px\] {
     max-width: 464px;
   }
+  .max-w-\[480px\] {
+    max-width: 480px;
+  }
   .max-w-\[500px\] {
     max-width: 500px;
   }
   .max-w-\[514px\] {
     max-width: 514px;
+  }
+  .max-w-\[545px\] {
+    max-width: 545px;
   }
   .max-w-\[568px\] {
     max-width: 568px;
@@ -616,6 +634,9 @@
   }
   .max-w-\[1600px\] {
     max-width: 1600px;
+  }
+  .min-w-\[140px\] {
+    min-width: 140px;
   }
   .min-w-\[437px\] {
     min-width: 437px;
@@ -891,6 +912,19 @@
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
   }
+  @media (width < 80rem) {
+    .max-xl\:justify-center {
+      justify-content: center;
+    }
+    :is(.max-xl\:\*\:justify-center > *) {
+      justify-content: center;
+    }
+  }
+  @media (width < 64rem) {
+    .max-lg\:flex-wrap {
+      flex-wrap: wrap;
+    }
+  }
   @media (width < 48rem) {
     .max-md\:right-0 {
       right: 0px;
@@ -913,6 +947,9 @@
     }
     .md\:hidden {
       display: none;
+    }
+    .md\:h-\[186px\] {
+      height: 186px;
     }
     .md\:max-h-\[116px\] {
       max-height: 116px;
@@ -949,6 +986,9 @@
     .xl\:mx-\[168px\] {
       margin-inline: 168px;
     }
+    .xl\:mr-\[230px\] {
+      margin-right: 230px;
+    }
     .xl\:ml-\[348px\] {
       margin-left: 348px;
     }
@@ -975,6 +1015,9 @@
     }
   }
   @media (width >= 96rem) {
+    .\32 xl\:h-\[102px\] {
+      height: 102px;
+    }
     .\32 xl\:h-\[478px\] {
       height: 478px;
     }
@@ -983,6 +1026,9 @@
     }
     .\32 xl\:gap-\[109px\] {
       gap: 109px;
+    }
+    :is(.\32 xl\:\*\:h-\[102px\] > *) {
+      height: 102px;
     }
   }
 }
