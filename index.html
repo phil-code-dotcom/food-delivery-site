@@ -1,23 +1,38 @@
 <!doctype html>
 <html>
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
 </head>
+
 <body>
-  <header class = "flex justify-between px-[145px] pt-[62px] font-inter" >
-      <img class="w-[42px] h-[42px]" src="./img/logo.png" alt="">
-      <nav class="flex gap-[45px] font-medium place-items-center">
-        <p>Restaurants</p>
-        <p>Recipes</p>
-        <p>About</p>
-        <div class="flex place-items-center">
-        <p>Pages </p>
-          <svg class="w-[20px] h-[12px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path d="M201.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 338.7 54.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z"/></svg>
+    <header class="w-full max-w-[1600px] mx-auto">
+        <div class="flex justify-between xl:px-[145px] px-5 md:pt-[62px] pt-5 font-inter items-center">
+            <img class="w-[42px] h-[42px]" src="./img/logo.png" alt="">
+            <nav class="hidden md:flex gap-[45px] font-medium items-center">
+                <p>Restaurants</p>
+                <p>Recipes</p>
+                <p>About</p>
+                <div class="flex items-center">
+                    <p>Pages </p>
+                    <svg class="w-[20px] h-[12px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                        <path
+                            d="M201.4 406.6c12.5 12.5 32.8 12.5 45.3 0l192-192c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L224 338.7 54.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l192 192z" />
+                    </svg>
+                </div>
+            </nav>
+            <div class="flex items-center justify-center gap-4">
+                <button class="text-white font-inter font-semibold bg-[#E94339] w-[115px] h-[52px] rounded-full">Sign
+                    up</button>
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-7 flex md:hidden">
+                    <path
+                        d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
+                </svg>
+            </div>
         </div>
-      </nav>
-      <button class="text-white inter font-semibold bg-[#E94339] w-[115px] h-[52px] rounded-full">Sign up</button>
     </header>
 </body>
+
 </html>
