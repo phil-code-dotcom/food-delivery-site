@@ -1,0 +1,11 @@
+@import url('https://googleapis.com');
+
+@import "tailwindcss";
+
+@theme {
+  /* This overrides the default sans-serif font stack globally */
+  --font-sans: "Inter", system-ui, sans-serif;
+  
+  /* OPTIONAL: Or create a distinct utility class (e.g., font-inter) */
+  --font-inter: "Inter", sans-serif;
+}
